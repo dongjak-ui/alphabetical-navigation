@@ -1,11 +1,11 @@
 {
-  "name": "vue3-library-template",
+  "name": "alphabetical-navigation",
   "version": "1.0.0",
   "description": "",
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/cruldra/vue3-library-template.git",
+  "repository": "https://github.com/dongjak-ui/alphabetical-navigation",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && vue-tsc && vite build && pnpm run copy-library-files",
@@ -15,7 +15,7 @@
     "docs:build": "pnpm run build && pnpm run copy-library-files && vuepress build docs"
   },
   "keywords": [],
-  "author": "cruldra",
+  "author": "dongjak-ui",
   "license": "MIT",
   "peerDependencies": {
     "vue": "^3.3.4"

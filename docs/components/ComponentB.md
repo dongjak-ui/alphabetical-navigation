@@ -15,7 +15,7 @@ order: 1
 ```vue
 
 <script lang="ts" setup>
-  import {ComponentB} from 'vue3-library-template'
+  import {ComponentB} from 'alphabetical-navigation'
   import {onMounted} from "vue";
 
   onMounted(() => {
@@ -32,7 +32,7 @@ order: 1
 ```json
 {
   "imports": {
-    "vue3-library-template": "http://localhost:8080/lib/vue3-library-template.es.js"
+    "alphabetical-navigation": "http://localhost:8080/lib/alphabetical-navigation.es.js"
   }
 }
 ```
