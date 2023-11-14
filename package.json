@@ -1,11 +1,11 @@
 {
-  "name": "alphabetical-navigation",
+  "name": "vue3-index-list",
   "version": "1.0.0",
   "description": "",
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/dongjak-ui/alphabetical-navigation",
+  "repository": "https://github.com/dongjak-ui/vue3-index-list",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && vue-tsc && vite build && pnpm run copy-library-files",

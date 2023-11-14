@@ -1,8 +1,6 @@
 import 'uno.css';
-import ComponentA from './ComponentA.vue';
-import ComponentB from './ComponentB.vue';
+import IndexListV2 from "./IndexListV2.vue";
 
 export {
-    ComponentA,
-    ComponentB
+    IndexListV2
 };

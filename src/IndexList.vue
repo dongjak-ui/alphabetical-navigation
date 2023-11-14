@@ -3,7 +3,9 @@
 </script>
 
 <template>
-<div class="w-full">ComponentB</div>
+<div class="flex flex-col h-full">
+
+</div>
 </template>
 
 <style scoped>
