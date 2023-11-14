@@ -1,0 +1,39 @@
+name: Template Cleanup
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  template-cleanup:
+    name: Template Cleanup
+    runs-on: ubuntu-latest
+    if: github.event.repository.name != 'vue3-library-template'
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Update package.json
+        run: |
+          node .github/template-cleanup/scripts/update-package-json.js ${{ github.event.repository.name }} ${{ github.event.repository.owner.login }} ${{ github.event.repository.html_url }}
+      - name: Update Library name
+        run: |
+          node .github/publish-docs/scripts/update-library-name.js ${{ github.event.repository.name }}
+      - name: Delete template-cleanup.yml
+        run: |
+          rm .github/workflows/template-cleanup.yml
+          rm -rf .github/template-cleanup
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Template cleanup"
+          # Push changes
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: master
+          github_token: ${{ secrets.GITHUB_TOKEN }}
