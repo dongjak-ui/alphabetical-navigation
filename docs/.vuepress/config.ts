@@ -14,7 +14,7 @@ export default defineUserConfig({
     locales: {
         "/": {
             lang: "zh-CN",
-            title: "一星的臭弟弟",
+            title: "Vue3 Index List",
             description: "vuepress-theme-hope 的文档演示",
         },
     },

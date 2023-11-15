@@ -1,5 +1,5 @@
 ---
-title: AlphabeticalNavigation
+title: IndexListV2
 comment: false
 editLink: false
 prev: false
@@ -9,7 +9,7 @@ order: 1
 
 ## 示例
 
-::: vue-playground ComponentA
+::: vue-playground
 @file App.vue
 
 ```vue

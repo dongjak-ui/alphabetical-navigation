@@ -49,6 +49,14 @@ module.exports = defineConfig({
                     'row-gap': `${d}`,
                 };
             },
+        ],[
+            /^m-auto$/,
+            //@ts-ignore
+            ([, d]) => {
+                return {
+                    'margin': `auto`,
+                };
+            },
         ],
     ]
 })
