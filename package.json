@@ -18,11 +18,11 @@
     "src",
     "dist"
   ],
-  "module": "./dist/vue3-library-template.es.js",
+  "module": "./dist/vue3-index-list.es.js",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
-      "import": "./dist/vue3-library-template.es.js"
+      "import": "./dist/vue3-index-list.es.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
