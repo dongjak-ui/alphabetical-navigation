@@ -6,13 +6,25 @@
     "access": "public"
   },
   "repository": "https://github.com/dongjak-ui/vue3-index-list",
-  "main": "index.js",
+  "main": "dist/vue3-index-list.es.js",
   "scripts": {
     "build": "rimraf dist && vue-tsc && vite build && pnpm run copy-library-files",
     "copy-library-files": "copyfiles -f ./dist/* ./docs/.vuepress/public/lib",
     "semantic-release": "semantic-release",
     "docs:dev": "pnpm run build && pnpm run copy-library-files && vuepress dev docs",
     "docs:build": "pnpm run build && pnpm run copy-library-files && vuepress build docs"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "module": "./dist/vue3-library-template.es.js",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/vue3-library-template.es.js"
+    },
+    "./dist/style.css": "./dist/style.css"
   },
   "keywords": [],
   "author": "dongjak-ui",
