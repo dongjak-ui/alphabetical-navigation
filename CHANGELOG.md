@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/dongjak-ui/vue3-index-list/compare/v1.1.0...v1.2.0) (2023-11-15)
+
+
+### Features
+
+* 代码结构优化 ([d604b82](https://github.com/dongjak-ui/vue3-index-list/commit/d604b82074a224188bad43b793187bb1ac85527e))
+* 代码结构优化 ([c2c730f](https://github.com/dongjak-ui/vue3-index-list/commit/c2c730fc6206b18a3eb0870a42f4e2fb68073a74))
+
 # [1.1.0](https://github.com/dongjak-ui/vue3-index-list/compare/v1.0.0...v1.1.0) (2023-11-15)
 
 
