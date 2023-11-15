@@ -7,13 +7,13 @@ export interface IndexListItem {
   [key: string]: any
 }
 
-interface Props {
+export interface UniIndexListProps {
   items: Array<IndexListItem> | (() => Promise<Array<IndexListItem>>),
   indexField?: string,
   labelField?: string
 }
 
-const props = withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<UniIndexListProps>(), {
   indexField: 'pinyin',
   labelField: 'name'
 })
