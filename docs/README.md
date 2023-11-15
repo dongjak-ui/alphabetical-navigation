@@ -102,7 +102,7 @@ highlights:
         details: 可以在 Markdown 中直接写出流程图
         link: https://theme-hope.vuejs.press/zh/guide/markdown/flowchart.html
 
-      - title: Mermaid 支持
+      - title: Mermaid 支持1
         icon: chart-pie
         details: 可以在 Markdown 中添加 Mermaid 图例
         link: https://theme-hope.vuejs.press/zh/guide/markdown/mermaid.html
