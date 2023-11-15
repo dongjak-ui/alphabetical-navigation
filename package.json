@@ -30,7 +30,7 @@
   "author": "dongjak-ui",
   "license": "MIT",
   "peerDependencies": {
-    "vue": "^3.3.4"
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
