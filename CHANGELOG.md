@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/dongjak-ui/vue3-index-list/compare/v1.3.0...v1.4.0) (2023-11-15)
+
+
+### Features
+
+* vue3版本 ([c2da0b0](https://github.com/dongjak-ui/vue3-index-list/commit/c2da0b09042303c62fbfb02708ccfb4014405fd9))
+
 # [1.3.0](https://github.com/dongjak-ui/vue3-index-list/compare/v1.2.0...v1.3.0) (2023-11-15)
 
 
