@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/dongjak-ui/vue3-index-list/compare/v1.4.0...v1.5.0) (2023-11-15)
+
+
+### Features
+
+* 新增uniapp支持 ([3d7d817](https://github.com/dongjak-ui/vue3-index-list/commit/3d7d81767a2d62db8132d40f60dcb2b72d84c8f3))
+* 新增uniapp支持 ([f68bfdd](https://github.com/dongjak-ui/vue3-index-list/commit/f68bfddfe77152a877d9cc8ad726430eb3b926d6))
+
 # [1.4.0](https://github.com/dongjak-ui/vue3-index-list/compare/v1.3.0...v1.4.0) (2023-11-15)
 
 
