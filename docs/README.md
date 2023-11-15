@@ -250,7 +250,7 @@ highlights:
         details: 生成你的 Feed，并通知你的用户订阅它
         link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
 
-      - title: PWA 支持
+      - title: PWA 支持1
         icon: mobile-screen
         details: 让你的网站更像一个 APP
         link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
