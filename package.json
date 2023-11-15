@@ -44,6 +44,6 @@
     "vuepress-theme-hope": "2.0.0-beta.219"
   },
   "dependencies": {
-    "@dongjak-extensions/lang": "^1.2.0"
+    "@dongjak-extensions/lang": "^1.3.0"
   }
 }
